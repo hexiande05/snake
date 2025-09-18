@@ -10,7 +10,7 @@ module.exports = {
     entry: './src/index.ts',
     //指定打包文件所在目录
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public'),
         //指定打包后的文件名
         filename: 'boundle.js',
 
